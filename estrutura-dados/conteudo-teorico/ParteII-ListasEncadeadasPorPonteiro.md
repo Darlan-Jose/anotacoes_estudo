@@ -85,11 +85,11 @@ Em 5 chama a função `criar`, para fazer a minhaLista se tornar uma lista vazia
 
 Em 6 e 10 existe um `do.. While`, que irá executar enquanto `op` for diferente de -1, dentro desse do.. While existe a seguinte estrutura. 
 
-&emsp;&emsp;Em 7 o comando system("cls") é utilizado para limpar a tela do console.
+Em 7 o comando system("cls") é utilizado para limpar a tela do console.
 
-&emsp;&emsp;Em 8 mostra as opções do menu, e armazena o número da opção digitada em op. 
+Em 8 mostra as opções do menu, e armazena o número da opção digitada em op. 
 
-&emsp;&emsp;Em 9, tem o switch case.
+Em 9, tem o switch case.
 
 Em 11 é utilizado  comando `system("PAUSE")`, que mostra uma mensagem para o usuário pressionar qualquer tecla para fechar o programa.
 
@@ -129,7 +129,7 @@ Em 4 acessa o campo último da lista que passa a assumir o valor de primeiro, ou
 Em 1 declara-se a função `vazia` que tem como parâmetro um `TipoLista` chamado lista. 
 
 Em 2 se o primeiro item da lista for igual ao último item da lista, significa que ela está vazia,
-&emsp;&emsp;E em 3 faz com que retorne 1 (verdadeiro).
+E em 3 faz com que retorne 1 (verdadeiro).
 
 Em 4, caso 2 seja falso, o primeiro item da lista é diferente do último, ou seja, a lista não está vazia, retorna 0 (falso).
 
@@ -204,11 +204,11 @@ Em 4, no laço `while`, enquanto `aux` for diferente de `NULL`, ou seja, enquant
 
 Lembrando que o `apontador` é a mesma coisa que `Celula *p`, ou seja, um ponteiro para struct celula. Ou seja `aux` é um ponteiro para a struct Celula referente a posição em que ele estiver no laço while.
 
-&emsp;&emsp;Em 5, acessa o campo `item` da struct Celula apontada por `aux`, então acessa o campo `chave` da struct TipoItem e mostra esse valor na tela.
+Em 5, acessa o campo `item` da struct Celula apontada por `aux`, então acessa o campo `chave` da struct TipoItem e mostra esse valor na tela.
 
-&emsp;&emsp;Em 6, acessa o campo `item` da struct Celula apontada por `aux`, então acessa o campo `nome` da strcut TipoItem e mostra esse valor na tela.
+Em 6, acessa o campo `item` da struct Celula apontada por `aux`, então acessa o campo `nome` da strcut TipoItem e mostra esse valor na tela.
 
-&emsp;&emsp;Em 7 o apontador `aux` recebe  o valor armazenado no seu campo `prox` (que é um apontador), isso faz com que `aux` passe para próximo elemento da lista. 
+Em 7 o apontador `aux` recebe  o valor armazenado no seu campo `prox` (que é um apontador), isso faz com que `aux` passe para próximo elemento da lista. 
 
 Demonstração do uso da função em main:
 ```c
@@ -236,9 +236,9 @@ int main()
 Em 2, dentro do if chama a função `vazia`, se a mesma retorna 1 (verdadeiro), indica que a `minhaLista` está vazia, mostrando uma mensagem informando isso, em 3.
 
 Em 4, caso o if 2 seja falso, ou seja, a lista não está vazia, executa o seguinte código:
-&emsp;&emsp;Em 6, chama a função `Imprime`, e coloca `minhaLista` como argumento, mostrando assim os itens da lista. 
+Em 6, chama a função `Imprime`, e coloca `minhaLista` como argumento, mostrando assim os itens da lista. 
 
-&emsp;&emsp;Em 7 chama o comando `pause`, para "pausar" o terminal até que o usuário digite alguma tecla.
+Em 7 chama o comando `pause`, para "pausar" o terminal até que o usuário digite alguma tecla.
 
 # Função Consulta:
 ```c
@@ -260,9 +260,9 @@ Em 2 cria um apontador chamado `aux`. E em 3 faz com esse apontador receba o apo
 
 Em 4, no laço `while`, enquanto `aux` for diferente de `NULL`, ou seja, enquanto o apontador `aux` não chegar no último elemento da lista, ele executa o resto do código.
 
-&emsp;&emsp;Em 5, se, o campo` chave` do item da celula apontada por `aux`, for igual a `chave`, retorna 1, ou seja, o item em que `aux` se encontra for igual a `chave` digitada, significa que o item foi encontrado e retorna verdadeiro.
+Em 5, se, o campo` chave` do item da celula apontada por `aux`, for igual a `chave`, retorna 1, ou seja, o item em que `aux` se encontra for igual a `chave` digitada, significa que o item foi encontrado e retorna verdadeiro.
 
-&emsp;&emsp;Em 7 o apontador `aux` recebe  o valor armazenado no seu campo `prox` (que é um apontador), isso faz com que `aux` passe para próximo elemento da lista.
+Em 7 o apontador `aux` recebe  o valor armazenado no seu campo `prox` (que é um apontador), isso faz com que `aux` passe para próximo elemento da lista.
 
 Em 8 caso o campo `chave` do item da celula apontada por `aux `não for igual a `chave`, retorna 0, ou seja, se nenhum item que `aux` percorrer for igual a `chave` digitada, significa que nenhum item correspondente foi encontrado, retornado falso.
 
@@ -323,11 +323,11 @@ Em 4 o apontador `aux` recebe o apontador `prox` que é um campo do apontador `p
 
 Em 5, no laço `while`, enquanto `aux` for diferente de `NULL`, ou seja, enquanto o apontador `aux` não chegar no último elemento da lista, ele executa o resto do código.
 
-&emsp;&emsp;Em 6 se a chave do `item` da Celula apontada por `aux` for igual a chave, retorna o apontador `anterior`, ou seja, retorna o ponteiro da Celula anterior, em 7.
+Em 6 se a chave do `item` da Celula apontada por `aux` for igual a chave, retorna o apontador `anterior`, ou seja, retorna o ponteiro da Celula anterior, em 7.
 
-&emsp;&emsp;Com isso em 8 o apontador `anterior` fica igual ao apontador `aux`, isso faz com que anterior agora se torne o antigo apontador `aux`.
+Com isso em 8 o apontador `anterior` fica igual ao apontador `aux`, isso faz com que anterior agora se torne o antigo apontador `aux`.
 
-&emsp;&emsp;Em 9 o apontador `aux` recebe o valor do seu apontador `prox`, isso faz com que aux passe para próximo elemento da lista. 
+Em 9 o apontador `aux` recebe o valor do seu apontador `prox`, isso faz com que aux passe para próximo elemento da lista. 
 
 Em 10 se toda a lista for percorrida e o elemento com a `chave` correspondente a chave da entrada da função não for encontrado, vai retornar `NULL`. 
 
