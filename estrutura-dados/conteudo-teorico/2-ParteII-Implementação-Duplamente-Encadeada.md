@@ -1,4 +1,5 @@
 **11 de março de 2025**
+
 **Implementação da lista duplamente encadeada em C, o mesmo código é bastante parecido com código da lista encadeada, então serão descritos somente os blocos de códigos que forem diferentes.**
 
 #  Declaração das estruturas:
