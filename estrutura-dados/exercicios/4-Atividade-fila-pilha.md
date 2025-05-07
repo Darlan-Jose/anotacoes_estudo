@@ -1,4 +1,4 @@
-** 01 de abril de 2025 **
+**01 de abril de 2025**
 # Enunciado:
 Considere um sistema de rastreamento que precisa monitorar a posição dos veículos com: Id, placa, data e hora, latitude e longitude
 Quando o equipamento está offline ele armazena as posições em sua memória a cada minuto numa lista.
