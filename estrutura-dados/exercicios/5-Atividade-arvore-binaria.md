@@ -1,4 +1,4 @@
-** 10 de abril de 2025**
+**10 de abril de 2025**
 
 # Enunciado:
 Você está desenvolvendo um sistema para um hospital público que deseja organizar os atendimentos de emergência com base na prioridade de entrada dos pacientes. Cada paciente tem um ID único e uma pontuação de prioridade (quanto maior, mais urgente o caso).
